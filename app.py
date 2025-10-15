@@ -5,6 +5,7 @@ import pandas as pd
 import os
 from datetime import datetime
 import io
+import time
 
 # --- PAGE CONFIG ---
 st.set_page_config(
@@ -12,7 +13,9 @@ st.set_page_config(
     page_icon=":rocket:",
     layout="wide"
 )
-
+with st.spinner("🚀 Loading Jay Agrawal's Portfolio..."):
+    time.sleep(2)  # simulate small delay (optional)
+    
 # --- HIDE STREAMLIT ANCHOR ICONS ---
 st.markdown("""
     <style>

@@ -3,4 +3,3 @@ numpy
 pandas
 qrcode
 matplotlib
-scikit-learn
